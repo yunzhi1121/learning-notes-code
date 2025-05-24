@@ -7,7 +7,8 @@ public class Node<E> {
     public Node(){
 
     }
-    public Node(E item, Node next){
-
+    public Node(E item, Node<E> next){
+        this.item = item;
+        this.next = next;
     }
 }
